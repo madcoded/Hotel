@@ -155,6 +155,7 @@ body {
 .navigation-link::before{
     content: "";
     width: 0rem;
+    
     height: 0.1rem;
     background-color: #deaa86;
     position: absolute;
@@ -171,6 +172,7 @@ body {
     position: absolute;
     top: 1rem;
     right: -4rem;    
+
     transition: width .5s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -180,7 +182,12 @@ body {
 
 .navigation-link:hover::before,
 .navigation-link:hover::after{
-    width: 3rem;
+   width: 3rem;
+}
+.copyright{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 /*end of navigation*/
